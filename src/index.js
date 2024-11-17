@@ -19,7 +19,7 @@ function generateLyric(event) {
 
   let lyricElement = document.querySelector("#lyric");
   lyricElement.classList.remove("hidden");
-  lyricElement.innerHTML = `<div class="generating">⌛️ Generating a Rap Song about ${instructionsInput.value}</div>`;
+  lyricElement.innerHTML = `<div class="generating">⌛️ Answering a question about ${instructionsInput.value}</div>`;
 
   console.log("generating lyric");
   console.log(`Prompt:${prompt}`);
