@@ -45,6 +45,7 @@ h1 {
 }
 .img-thumbnail {
   width: 200px;
+  border-radius: 10px;
 }
 .form-container {
   color: #35332c;
